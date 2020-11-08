@@ -35,9 +35,9 @@ Rabbit 拿到消息之后，会先交给 交换机 （Exchange）, 然后交换�
 | topic：主题模式  | 任何发送到Topic Exchange的消息都会被转发到所有关心RouteKey中指定话题的Queue上 | ![Topic 模式](https://stepimagewm.how2j.cn/9239.png)  |
 |      header      | headers类型的Exchange不依赖于routing key与binding key的匹配规则来路由消息，而是根据发送的消息内容中的headers属性进行匹配 |                                                       |
 
-可参考[rabbitmq 几种应用模式解释]这篇博客
+可参考[RabbitMQ 几种应用模式解释]这篇博客
 
-[rabbitmq 几种应用模式解释]: https://my.oschina.net/uwith/blog/3018649	"RabbitMQ几种应用模式解释"
+[RabbitMQ 几种应用模式解释]: https://my.oschina.net/uwith/blog/3018649	"RabbitMQ几种应用模式解释"
 
  
 
